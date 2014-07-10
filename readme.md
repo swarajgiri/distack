@@ -1,4 +1,5 @@
 # Distributed Storage Stack
+[![NPM version](https://badge.fury.io/js/distack.svg)](http://badge.fury.io/js/distack)
 
 Read and write to multiple storage systems through one simple API.
 Currently supports serial and parallel writes to:
