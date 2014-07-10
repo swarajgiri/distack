@@ -1,11 +1,24 @@
 {
-  "name": "dss",
+  "name": "distack",
   "version": "1.0.0",
   "description": "Distributed Storage Stack",
   "main": "index.js",
+  "keywords": [
+    "distributed",
+    "storage",
+    "s3",
+    "aws",
+    "amazon",
+    "local",
+    "disk",
+    "multiple",
+    "api",
+    "interface"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "ramniquesingh/distack",
   "author": "Ramnique Singh <maiL@ramniquesingh.name> (http://twitter.com/ramniquesingh)",
   "contributors": [
     "Jigar Jain <jjain91@gmail.com> (http://twitter.com/ragij)",
