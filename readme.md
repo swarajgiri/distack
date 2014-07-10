@@ -7,7 +7,9 @@ Currently supports serial and parallel writes to:
 
 ### Installation
 
+```bash
 npm install dss
+```
 
 ### Quick Start
 
