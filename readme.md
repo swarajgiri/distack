@@ -10,6 +10,7 @@ Currently supports serial and parallel writes to:
 npm install dss
 
 ### Quick Start
+
 ```js
 var DSS = require('dss');
 
@@ -34,10 +35,12 @@ store.write(['local', 'cloud'], 'myKey', 'my/file', function (err) {...});
 try {
   var readStream = store.read('local', 'myKey');
 } catch(e) {...}
+```
 
 ## Storage services
 
 ### Amazon S3
+
 ```js
 var store = new DSS({
     {
@@ -51,8 +54,10 @@ var store = new DSS({
         }
     }
 });
+```
 
 ### Local Disk Storage
+
 ```js
 var store = new DSS({
     {
@@ -63,6 +68,7 @@ var store = new DSS({
         }
     }
 });
+```
 
 ### License
 [MIT](LICENSE)
