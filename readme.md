@@ -8,13 +8,13 @@ Currently supports serial and parallel writes to:
 ### Installation
 
 ```bash
-npm install dss
+npm install distack
 ```
 
 ### Quick Start
 
 ```js
-var DSS = require('dss');
+var DSS = require('distack');
 
 // init
 var store = new DSS({
